@@ -20,6 +20,7 @@
 }
 .logo img{
     height: 60px;
+    border-radius: 50%;
 }
 .header a{
     color: white;
@@ -31,4 +32,12 @@
     color:#3E2723;
     background-color: #F5F5DC;
     padding: 5px;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.image img{
+    height: 89vh;
 }

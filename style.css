@@ -33,11 +33,26 @@
     background-color: #F5F5DC;
     padding: 5px;
 }
+.desc{
+    height: 550px;
+    width: 800px;
+    box-shadow: 2px 2px 30px 20px #dedebe;
+    border-radius: 60px 0 60px 0;
+    margin: 50px 0 0 50px;
+}
 .section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .image img{
-    height: 89vh;
+    height: 90vh;
+}
+.footer{
+    height: 40px;
+    width: 100%;
+    color: #F5F5DC;
+    background-color: #3E2723;
+    text-align: center;
+    padding-top: 10px;
 }
